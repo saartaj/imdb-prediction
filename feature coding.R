@@ -1,3 +1,6 @@
+### The data set was highly de- formated or unsorted. I had to lose so many observations in order to get the generalized idea about the data.
+### Although I tried base function to nullify them, I could have used dplyr, I thought of this as fun or knowing more.
+
 ## Recoding rating_pred$imdbRating into rating_pred$imdbRating
 rating_pred$imdbRating <- as.character(rating_pred$imdbRating)
 rating_pred$imdbRating[rating_pred$imdbRating == ""] <- NA
